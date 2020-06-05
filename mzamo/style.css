@@ -1,0 +1,200 @@
+header {
+      background-color:navy;
+      padding: 30px;
+      text-align: center;
+      color: yellowgreen;
+      font-family:Euphemia; 
+      opacity: 1;
+      text-transform: uppercase;
+      border-radius: 12px;
+    }
+
+a:link, a:visited {
+  background-color: yellowgreen;
+  color: navy;
+  padding: 15px 25px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-stretch: extra-expanded;
+  font-size: x-large;
+}
+
+a:hover, a:active {
+  background-color:navy;
+  color: yellowgreen  ;
+}
+
+p{
+text-align: center;
+}
+
+* {
+	box-sizing: border-box;
+}
+    .wrapper {
+		width: 800px;
+		margin: 5% auto;
+	
+}
+.form-area{
+	display: flex;
+	background: navy;
+	border-radius: 25px;
+	padding: 1.9em;
+}
+.msg-area {
+	display: flex;
+	flex-direction: column;
+	order: 2;
+}
+.msg-area > textarea {
+	flex: 1;
+	min-width: 18em;
+	background: transparent;
+	color: red;
+	padding: 15px;
+}
+
+.details-area {
+	flex: 1;
+	order: 1;
+	margin-right: 2em;
+}
+.details-area input {
+	width: 100%;
+	background: transparent;
+	color: white;
+	border-radius: 40px;
+}
+.details-area input, .details-area button {
+	padding: 1em;
+	margin-bottom: 1em;
+}
+
+.details-area button {
+	 background-color: yellowgreen;
+color: navy;
+border: none;
+font-size:x-large;
+border-radius: 20px;
+width: 30%;
+box-shadow: 0 9px #999;
+font-family: poppins;
+padding: 10px;
+ }
+	  
+label {
+	color: yellowgreen;
+	text-transform: uppercase;
+	line-height: 40px;
+	font-family: Audiowide;
+}
+
+	   button:hover {
+      background: grey;
+	  color: yellowgreen;
+      }
+	  
+body {
+		background-color: grey;
+	}
+	
+.fa {
+		   padding: 50px;
+		  font-size: 30px;
+		  width: 10px;
+		  text-decoration: none;
+		  border-radius: 50%;
+		  background-color: red;
+		  
+	  }
+	      footer {
+      background-color:navy;
+      padding: 10px;
+      text-align: center;
+      color: yellowgreen;
+      font-family:  Euphemia;
+      font-size: x-large;
+      border-radius: 10px;
+    }
+	  
+	  	 .flex-container {
+        display :flex;
+        flex-direction: column;
+        background-color: grey;
+		}
+		
+	.flex-container > div {
+        background-color: grey;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 60px;
+        font-size: 30px;
+        place-items: center ;
+		}
+		
+		.foot {
+			text-align: center;
+		}
+		
+		.accordion {
+  background-color: navy;
+  color: yellowgreen;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  border-radius: 150px;
+}
+.active, .accordion:hover {
+  background-color: blue; 
+  color:ghostwhite;
+}
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: yellowgreen;
+  color: navy;
+  overflow: hidden;
+}
+h3 {
+	text-align: center;
+	color: navy;
+}
+h2 {
+color: yellowgreen;
+text-align: center;
+}
+h1 {
+color: navy;
+text-align: left;
+}
+h4 {
+	text-align: left;
+	color: navy;
+	font-family: Monospace;
+}
+
+h5 {
+	text-align: right;
+	color: navy;
+	font-family: Monospace;
+}
+ 
+.img-area {
+display: flex;    
+ flex-wrap: wrap;    
+ flex-direction: row;   
+ align-items: center;    
+ justify-content: center;
+ } 
+ 
+.single-img { 
+padding: 0 20px 20px;
+}

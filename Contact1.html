@@ -1,0 +1,89 @@
+<html>
+<head>
+<title>
+Contact Us Page
+</title>
+<link rel = "stylesheet" type = "text/css" href = "mzamo/style.css">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+ 
+<body>
+
+<header>
+<h2>Mzamomtsha Primary School</h2>    
+</header>
+
+<p>
+<a href = "index.html">Home</a>
+<a href = "Events.html">Events</a>
+<a href = "Contact.html">Contact</a>
+<a href = "About Us.html">About Us</a>
+<a href="faq.html">FAQ</a>
+</p>
+
+<h2>Contact Us</h2>
+<h3> Please use this form in a decent manner!</h3>
+
+<div class = "wrapper">
+
+<form action = "welcome.php" target = "blank" method = "post" class = "form-area">
+
+<div class = "msg-area">
+<label for = "msg">Message</label>
+<textarea id = "msg" required></textarea>
+</div>
+
+<div class = "details-area">
+<label for = "name">First Name </label>
+<input type = "name" name = "" id = "name" required>
+
+<label for = "lname">Last Name </label>
+<input type = "name" name = "" id = "lname" required>
+
+<label for = "email">Email </label>
+<input type = "email" name = "" id = "email" required>
+
+<button  onclick="test()"> Submit</button>
+
+</div>
+</form>
+</div>
+<script>
+    //checking if all the filleds have been filled in properly
+    function validateForm(){
+        var x = document.forms["myForm"]
+        ["name"].value;
+        //Fname (first name)
+        if (Fname==""){
+            alert("Name must be filled out");
+            
+        }
+        //Lname(Last name)
+        if(Lname==""){
+            alert("Please fill in last name")
+        }
+        //Ename (email name)
+        if (Ename==""){
+            alert("The email is required to complete the form")
+        }
+    }
+    // calling the onclick to submit the form. 
+    function test(){
+        alert("The form has been submitted")
+    }
+   
+    
+    </script>
+
+<footer>
+<div class = "foot">
+    <a href="https://web.facebook.com/MobileMafias/" class="fa fa-facebook"></a>
+		<a href="https://twitter.com/AppMafias/" class="fa fa-twitter"></a>
+		<a href="https://www.instagram.com/mobileappmafias/" class="fa fa-instagram"></a>
+		<a href="https://mobileappmafias.wordpress.com/" class="fa fa-wordpress"></a>
+</div>
+</footer>
+</body>
+
+</html>

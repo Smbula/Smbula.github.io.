@@ -1,0 +1,37 @@
+<html>
+
+
+
+<body>
+
+    <button  onclick="test()"> Submit</button>
+    <script>
+        //checking if all the filleds have been filled in properly
+        function validateForm(){
+            var x = document.forms["myForm"]
+            ["name"].value;
+            if (Fname==""){
+                alert("Name must be filled out");
+                
+            }
+            if(Lname==""){
+                alert("Please fill in last name")
+            }
+            if (Ename==""){
+                alert("The email is required to complete the form")
+            }
+        }
+        function test(){
+            alert("The form has been submitted")
+        }
+        
+        </script>
+    
+</body>
+
+
+
+
+
+
+</html>
